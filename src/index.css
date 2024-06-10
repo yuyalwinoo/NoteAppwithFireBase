@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply flex bg-blue-400 justify-between p-8 rounded-lg my-5 w-1/2 mx-auto
+  }
+}  
